@@ -1,0 +1,230 @@
+<?php
+// USAGE
+include "Includes/config.php";
+  $uri = isset($_GET['q'])?$_GET['q']:'';
+  $uri_array = explode( "/", $uri );
+
+//$url = $tmp_odds_url = $odds_url."football/euro-2016";
+
+include "Includes/inc.header.php";
+if(strlen($uri_array[0]) > 0)
+{
+	?>
+     <div class="row bg_img">
+        	<div class="col-md-12">
+            	<div class="content"><?php
+	include("views/".$uri_array[0].".php");
+	?>
+    </div>
+                <!--content ends-->
+            </div>
+            <!--col-md-12 ends-->
+        </div>
+    <?php
+	
+}else{
+	?>
+         <div class="row bg_img">
+        	<div class="col-md-12">
+            	<div class="content">
+                	<div class="row ibg ft">
+                    	<div class="col-md-12">
+                           <div class="mxw">
+                        	<div class="row pd10">
+                            	<div class="col-md-6 col-xs-6 col-sm-6">
+                                	<div class="logo1"><img src="img/ONECLICK.png" class="img-responsive"></div>
+                                </div>
+                                <!--col-md-6 ends-->
+                                <div class="col-md-6 col-xs-6 col-sm-6 txt_a">
+                                	<a href="#" class="a_btn">Already a customer?</a>
+                                </div>
+                            </div>
+                            <!--row ends-->
+                            </div>
+                        </div>
+                        <!--col-md-12 ends-->
+                    </div>
+                    <!--row1 ends-->
+                    <div class="row bg_ig ft">
+                     	<div class="col-md-12">
+                     		<div class="row">
+                              <div class="img_bg mb20">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="data">
+                                        <div class="sub_content">
+                                           <div class="mainsection">
+                                                <div class="bx_width">
+                                                    <p class="informa-med bigtext-line0">New Customer Offer</p>
+                                                    <p class="block bigtext-line1">Get a </p>
+                                                    <p class="block bigtext-line2">free </p>
+                                                    <p class="block bigtext-line3">€20 bet</p>
+                                                </div>
+                                                <!--bx_width ends-->
+                                           </div>
+                                           <!--mainsection ends-->
+                                        </div>
+                                        <!--sub content ends-->
+                                        <div class="scbtn">
+                                            <div class="scbtn_inner">
+                                                <a href="" class="btn btn-large btnpd btn-primary" data-cta-action="_blank" target="_blank" data-promocode="IND000">Bet &amp; Win</a>
+                                                <p class="terms-c">
+                                                   <a target="_blank" href="https://promotions.OneClickOdds.com/in-exchange20nlcb-terms-new?promotionCode=IND000">Terms &amp; Conditions</a>  
+                                                   <span class="session-n white"> | </span> <a class="session-n" target="_same" href="https://www.OneClickOdds.com/exchange?promotionCode=IND000"> Already a customer?</a>
+                                                </p>
+                                                <p class="terms-c dsn">&nbsp;</p>
+                                            </div>
+                                            <!--scbtn_inner ends-->
+                                        </div>
+                                        <!--scbtn ends-->
+                                        <div class="fspc">
+                                            <p class="clickable" id="subhead2" style="display: none;">
+                                                IT'S AS SIMPLE AS <br class="responsive-br"> <span class="yellow">TAP TAP <span class="yellow-expand">BOOM</span></span>
+                                            </p>
+                                            <p class="clickable" id="subhead3">
+                                            
+                                            </p>
+                                        </div>
+                                        <!--fspc ends-->
+                                    </div>
+                                    <!--data ends-->
+                                    
+                                </div>
+                                <!--col-md-12 ends-->
+                              </div>
+                      <!--img bg ends-->
+                      <div class="row mb20 disb mgna pd5">
+                            	<div class="col-md-4 col-sm-4 col-xs-4 pdr15">
+                                	<div class="dbx1 dbx pd10">
+                                    	<h1 class="yellow">JOIN</h1>
+                                        <p class="white">Open your free account</p>
+                                    </div>
+                                </div>
+                                <!--col-md-4 ends-->
+                                <div class="col-md-4 col-sm-4 col-xs-4 pdr15">
+                                	<div class="dbx2 dbx pd10">
+                                    	<h1 class="yellow">BET</h1>
+                                        <p class="white">Stake at least €20 on your first Exchange bet.</p>
+                                    </div>
+                                </div>
+                                <!--col-md-4 ends-->
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                	<div class="dbx3 dbx pd10">
+                                    	<h1 class="white">FREE BET</h1>
+                                        <p class="white">We'll refund your €20 should you lose it</p>
+                                    </div>
+                                </div>
+                                <!--col-md-4 ends-->
+                       </div>
+                       <!--row2 ends-->
+                       <div class="row pd5 mgna mb20">
+                       	<div class="col-md-4 col-sm-4 col-xs-4 pdr15">
+                        <div class="y_content">
+                        	<h1>TRY CASH OUT</h1>
+                            <div class="n_content">
+                            	<ul>
+                                 <li>Take your winnings In-Play</li>
+                                 <li>Cut your losses at any time</li>
+                                 <li>You're in control - you decide</li>
+                                </ul>
+                            </div>
+                            <!--n_content ends-->
+                            <div class="s_content fullWidthLine">
+                            	<div class="s_subcontent">
+                                	<p>
+                                       <img class="thumbsup" src="img/thumbsup.png" alt="Facebook like" width="30">
+                                       <span class="pdl40">
+                                        <strong>404,239 Likes </strong> - We're confident you'll like OneClickOdds
+                                       </span>
+                                    </p>
+                                </div>
+                                <!--s_subcontent ends-->
+                            </div>
+                            <!--s_content ends-->
+                            </div>
+                            <!--y_content ends-->
+                        </div>
+                        <!--col-md-4 ends-->
+                        
+                        <div class="col-md-4 col-sm-4 col-xs-4 pdr15">
+                        <div class="y_content">
+                        	<h1>SET YOUR OWN ODDS</h1>
+                            <div class="n_content">
+                            	<p>OneClickOdds Exchange allows you to bet against other people and set your own odds, putting you in control.</p>
+                            </div>
+                            <!--n_content ends-->
+                            
+                            </div>
+                            <!--y_content ends-->
+                        </div>
+                        <!--col-md-4 ends-->
+                        
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="y_content">
+                        	<h1>BET ON MOBILE</h1>
+                            <img class="" src="img/iphone-new.png" alt="Smartphone">
+                            <div class="n_content">
+                            	<p>Download the OneClickOdds apps with all the features to bet on the go, including Cash Out. </p> 
+                                <img class="appicons img-responsive" src="img/appicons.png?01" alt="App store icons">
+                            </div>
+                            <!--n_content ends-->
+                            
+                            </div>
+                            <!--y_content ends-->
+                        </div>
+                        <!--col-md-4 ends-->
+                       </div>
+                       <!--row3 ends-->
+                       <div class="row mgna">
+                       		<div class="col-md-12 col-sm-12 col-xs-12">
+                            	<div class="content_footer">
+                                	<div class="footer_c">
+                                    	<ul class="l_list">
+                                            <li><a class="logo9"></a>
+                                            </li>
+                                            <li><a class="logo1"></a>
+                                            </li>
+                                            <li><a class="logo2"></a>
+                                            </li>
+                                            <li><a class="logo3"></a>
+                                            </li>
+                                            <li><a class="logo4"></a>
+                                            </li>
+                                            <li><a class="logo5"></a>
+                                            </li>
+                                            <li><a class="logo6"></a>
+                                            </li>
+                                            <li><a class="logo7"></a>
+                                            </li>
+                                            <li><a class="logo8"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <!--content_footer ends-->
+                            </div>
+                            <!--col-md-12 ends-->
+                       </div>
+                       <!--row4 ends-->
+                   			 </div>
+                    		<!--col-md-12 ends-->
+                 		 </div>
+                  		<!--row ends-->
+                    </div>
+                    <!--row2 ends-->
+                </div>
+                <!--content ends-->
+            </div>
+            <!--col-md-12 ends-->
+        </div>
+        <?php
+}
+
+?>
+
+        <!--row3 ends-->
+<?php
+include "Includes/inc.footer.php";
+
+?>
+
