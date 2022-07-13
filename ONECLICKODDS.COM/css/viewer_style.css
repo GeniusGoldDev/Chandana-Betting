@@ -1,0 +1,158 @@
+@CHARSET "ISO-8859-1";
+
+.new_calc {
+	/*background-color: blue;*/
+	width: 502px;
+	height: 100%;
+	background: none repeat scroll 0% 0% #6FCEEC;
+	border: 1px solid #DEDEDE;
+	border-radius: 0.1em;
+}
+
+.nc_header_text {
+	width: 100%;
+	height: 35px;
+	color: #FFF;
+	text-align: center;
+	font-size: 150%;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+/*
+.new_calc_team_text {
+	background-color: green;
+}
+.new_calc_date_text {
+	background-color: red;
+}
+.new_calc_league_text {
+	background-color: green;
+}
+*/
+.new_calc_league_bet_risk_text {
+	text-align: center;
+	color: #fff;
+}
+
+.new_calc_league_bet_profit_text {
+	text-align: center;
+	color: #fff;
+}
+
+.new_calc_league_bet_win_text {
+	text-align: center;
+	color: #fff;
+}
+
+.ncl_btext {
+	/*
+	border: 1px solid black;
+	background-color: grey;
+	*/
+	width: 168px;
+	height: 38px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 170%;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+.nc_broker_cell {
+	padding: 0px 20px 0px 10px;
+	width: 150px;
+	text-align: center;
+	color: #fff;
+	font-size: 140%;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+.nc_quote_cell {
+	width: 130px;
+}
+
+.nc_table_container {
+	padding: 15px 0px 0px 0px;
+}
+
+.nc_table tr {
+	height: 55px;
+}
+
+.nc_table td {
+	/*border: 1px solid black;*/
+	vertical-align: middle;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+	color: #fff;
+}
+
+.ncq_cursor_element_button {
+	cursor: pointer;
+}
+
+.nc_table input {
+	text-align: center;
+	width: 90px;
+	background-color: transparent;
+	border: none;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.valuediv {
+	color: #fff;
+}
+
+.valuediv input {
+	text-align: center;
+	width: 90px;
+	background-color: transparent;
+	border: none;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 110%;
+	color: inherit;
+}
+
+.valuediv img {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 11px;
+}
+
+.ncq_cursor_element img {
+width: 16px;
+height: 16px;
+/*
+position: absolute;
+margin-left: -20px;
+margin-top: -10px;
+*/
+cursor: pointer;
+
+}
+
+.bet_value_row input {
+	color: #fff;
+}
+
+.marked_div {
+	border: 1px solid #fff;
+	border-radius: 3px;
+	margin: 0px 15px 1px;
+}
+
+.unmarked_div {
+	border: none;
+	border-radius: none;
+	margin: 0px;
+}
