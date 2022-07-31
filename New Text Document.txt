@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/11171713/scrape-a-site-content-with-a-secure-login
+
+https://stackoverflow.com/questions/13210140/how-can-i-scrape-website-content-in-php-from-a-website-that-requires-a-cookie-lo
+https://www.youtube.com/watch?v=_kQN-3aNCeI
