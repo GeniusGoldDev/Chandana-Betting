@@ -1,0 +1,40 @@
+<div><img src="dg8.gif" name="dy1"><img src="dg8.gif" name="dy2"><img src="dgh.gif"><img src="dg8.gif" name="mt1"><img src="dg8.gif" name="mt2"><img src="dgh.gif"><img src="dg8.gif" name="yr1"><img src="dg8.gif" name="yr2"><img src="dg8.gif" name="yr3"><img src="dg8.gif" name="yr4"></div>
+
+<script type="text/javascript">
+// Updated:  2014-11-03  ricocheting.com
+
+dg = new Array();
+dg[0]=new Image();dg[0].src="dg0.gif";
+dg[1]=new Image();dg[1].src="dg1.gif";
+dg[2]=new Image();dg[2].src="dg2.gif";
+dg[3]=new Image();dg[3].src="dg3.gif";
+dg[4]=new Image();dg[4].src="dg4.gif";
+dg[5]=new Image();dg[5].src="dg5.gif";
+dg[6]=new Image();dg[6].src="dg6.gif";
+dg[7]=new Image();dg[7].src="dg7.gif";
+dg[8]=new Image();dg[8].src="dg8.gif";
+dg[9]=new Image();dg[9].src="dg9.gif";
+
+function dodate(){ 
+	var d = new Date();
+	var dy=d.getDate(),mn=(d.getMonth()+1),yr=d.getYear();
+
+	if(yr<1000) yr+=1900;//Y2K issue in some browsers
+
+	document.dy1.src=getSrc(dy,10);
+	document.dy2.src=getSrc(dy,1);
+	document.mt1.src=getSrc(mn,10);
+	document.mt2.src=getSrc(mn,1);
+	document.yr1.src=getSrc(yr,1000);
+	document.yr2.src=getSrc(yr,100);
+	document.yr3.src=getSrc(yr,10);
+	document.yr4.src=getSrc(yr,1);
+}
+window.onload=function(){
+	dodate();
+	setInterval(dodate,30000);//30 secs
+}
+function getSrc(digit,index){
+	return dg[(Math.floor(digit/index)%10)].src;
+}
+</script>

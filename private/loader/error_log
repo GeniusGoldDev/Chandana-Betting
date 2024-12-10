@@ -1,0 +1,2 @@
+[22-Jun-2017 09:18:54 America/Chicago] PHP Fatal error:  Call to a member function getElementsByTagName() on a non-object in /home3/chandana/public_html/private/loader/betslip.php on line 7
+[17-Jul-2017 17:45:00 America/Chicago] PHP Fatal error:  Call to a member function getElementsByTagName() on a non-object in /home3/chandana/public_html/private.oneclickodds.com_created_by_Alexander/private/loader/betslip.php on line 7
